@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/PreviewImageTitle"
+            style="@style/field_title_style"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/preview_image" />
+
+        <FrameLayout style="@style/preview_image_framelayout_style"
+            android:layout_weight=".5">
+
+            <ImageView
+                android:id="@+id/Preview_Image_Image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/preview_image"
+                android:src="@drawable/next_button"
+                android:visibility="visible" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/PreviewLocationTag"
+            style="@style/field_title_style"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/preview_location" />
+
+        <TextView
+            android:id="@+id/PreviewLocationText"
+            style="@style/text_view_style"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/preview_location" />
+
+        <TextView
+            android:id="@+id/PreviewNitrateTitle"
+            style="@style/field_title_style"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/preview_nitratetitle" />
+
+        <TextView
+            android:id="@+id/PreviewNitrateValue"
+            style="@style/text_view_style"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/PreviewNitriteTitle"
+            style="@style/field_title_style"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/preview_nitritetitle" />
+
+        <TextView
+            android:id="@+id/PreviewNitriteValue"
+            style="@style/text_view_style"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="5"
+            android:scrollbars="vertical"
+            />
+        <TextView
+            android:id="@+id/EnterDescriptionLabel"
+            style="@style/text_view_style"
+            android:paddingTop="10dp"
+            android:text="@string/description_labeltitle" />
+
+        <EditText
+            android:id="@+id/descriptionText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:windowSoftInputMode="stateHidden"
+            android:editable="false"
+            android:nestedScrollingEnabled="true"
+            android:maxLines="3"
+            android:minLines="3">
+        </EditText>
+
+        <Button
+            android:id="@+id/submit_button"
+            style="@style/riverWatchButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="SubmitButton"
+            android:text="@string/submit" />
+    </LinearLayout>
+</LinearLayout>

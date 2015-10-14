@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5F9F9F</color>
+    <color name="colorPrimaryDark">#528E8D</color>
+    <color name="colorAccent">#FF4081</color>
+
+    //Nitrite Colours
+    <color name="Nitrite0">#FFF5E9</color>
+    <color name="Nitrite0.15">#FFF0FD</color>
+    <color name="Nitrite0.3">#FFEFFB</color>
+    <color name="Nitrite1">#FFBBD8</color>
+    <color name="Nitrite3">#FF8CB9</color>
+    <color name="Nitrite1.5">#FA98BB</color>
+
+    //Nitrate Colours
+    <color name="Nitrate0">#FEDCB7</color>
+    <color name="Nitrate1">#FFE8DE</color>
+    <color name="Nitrate2">#F9CDC2</color>
+    <color name="Nitrate5">#EDA6B0</color>
+    <color name="Nitrate10">#F17DA0</color>
+    <color name="Nitrate20">#E54278</color>
+    <color name="Nitrate50">#B61140</color>
+
+    <!--<color name="done_button_start_colour">#62C462</color>-->
+    <!--<color name="done_button_end_colour">#51A351</color>-->
+
+    <color name="back_button_start_colour">#EE5F5B</color>
+    <color name="back_button_end_colour">#BD3625</color>
+    <color name="done_button_start_colour">#62C462</color>
+    <color name="done_button_end_colour">#51A351</color>
+    <color name="background_start">#FFFFFF</color>
+    <color name="background_end">#FFFFFF</color>
+    <color name="details_main_text">#4C566C</color>
+    <color name="submit_report_button_text">#51A351</color>
+    <color name="header_end"> #333</color>
+    <color name="header_start">#222</color>
+    <color name="item_background_no_link">#EBEBEB</color>
+    <color name="margin">#757575</color>
+    <color name="divider_gray">#C5C8D0</color>
+    <color name="preview_background_start">#C0BABA</color>
+    <color name="preview_background_end">#C0DAFF</color>
+    <color name="riverWatch_outline_color">#003310</color>
+    <color name="riverWatch_button_start_colour">#5BC0DE</color>
+    <color name="riverWatch_button_end_colour">#2F96B4</color>
+    <color name="riverWatch_selectbutton_start_colour">#FBB450</color>
+    <color name="riverWatch_selectbutton_end_colour">#F89406</color>
+</resources>
